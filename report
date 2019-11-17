@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Sets the domain to `internal.tld`
+set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
+
+echo $@
